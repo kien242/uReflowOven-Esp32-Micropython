@@ -3,34 +3,34 @@
     "default_alloy": "Sn63/Pb37",
     "title": "uReflow Oven",
     "heater_pins": {
-        "heater": 21,
+        "heater": 4,
         "heater_active_low": false
     },
     "tft_pins": {
-        "miso": 5,
-        "mosi": 18,
-        "sck": 19,
-        "cs": 13,
-        "dc": 12,
-        "rst": 4,
-        "acc": 14,
-        "led": 15,
+        "miso": 19,
+        "mosi": 23,
+        "sck": 18,
+        "cs": 14,
+        "dc": 16,
+        "rst": 27,
+        "acc": 39,
+        "led": 17,
         "acc_active_low": false,
         "led_active_low": false,
         "is_portrait": true
     },
     "touch_pins": {
-        "cs": 25,
-        "interrupt": 35
+        "cs": 26,
+        "interrupt": 25
     },
-    "buzzer_pin": 22,
+    "buzzer_pin": 2,
     "sensor_type": "MAX6675",
     "sensor_offset": 0.0,
     "sensor_pins": {
         "hwspi": 2,
-        "cs": 27,
-        "miso": 33,
-        "sck": 32
+        "cs": 13,
+        "miso": 12,
+        "sck": 5
     },
     "sampling_hz": 5,
     "display_refresh_hz": 2.5,
